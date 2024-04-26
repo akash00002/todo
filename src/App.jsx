@@ -76,7 +76,7 @@ function App() {
           <input onChange={handleChange} value={todo} className='w-3/4 sm:w-1/2 h-8 bg-slate-50 focus:outline-none placeholder:text-gray-500' type="text" placeholder='What would you like to do?' />
           <div className="bg-black h-px w-3/4 sm:w-1/2"></div>
 
-          <button onClick={handleAdd} disabled={todo.length <= 3} type='submit' className="add w-36 h-8 text-center rounded-md text-white bg-red-400 shadow-lg -ml-4 mb-4 shadow-red-300 my-4 hover:bg-red-500">Add</button>
+          <button onClick={handleAdd} disabled={todo.length <= 3} type='submit' className="cursor-pointer add w-36 h-8 text-center rounded-md text-white bg-red-400 shadow-lg -ml-4 mb-4 shadow-red-300 my-4 hover:bg-red-500">Add</button>
         </div>
       </div>
       <div className="content bg-violet-100 h-[81vh] md:h-[87vh] lg:h-[87vh] xl:h-[78vh] pt-[70px] pb-5">
